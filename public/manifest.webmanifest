@@ -1,0 +1,15 @@
+{
+  "name": "Ateliê AnaCraft",
+  "short_name": "AnaCraft",
+  "description": "Presentes personalizados feitos à mão com carinho.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fffafb",
+  "theme_color": "#d87890",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
