@@ -12,6 +12,7 @@ Vitrine digital simples e objetiva para um ateliê artesanal. Este projeto foi s
 - Persistência do catálogo em `localStorage`, sem banco de dados.
 - Layout responsivo para desktop e mobile.
 - PWA instalável no celular, com manifesto, ícone próprio e cache inicial.
+- Imagens reais da loja AnaCraft organizadas em `public/assets` para evitar dependência de imagens externas.
 - Identidade visual AnaCraft com rosa artesanal, off-white e tipografia editorial.
 
 ## Tecnologias
