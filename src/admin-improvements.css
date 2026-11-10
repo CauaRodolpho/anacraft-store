@@ -1,0 +1,18 @@
+:root { --focus-color: #8d3552; }
+:focus-visible { outline: 3px solid var(--focus-color); outline-offset: 4px; }
+button:disabled { opacity: .6; cursor: wait; }
+.admin-topbar .view-store { flex-shrink: 0; }
+.admin-product h3, .admin-product p { overflow-wrap: anywhere; }
+.modal { overscroll-behavior: contain; }
+@media (max-width: 820px) {
+  .admin-shell.collapsed aside { transform: translateX(-100%); }
+  .admin-shell.collapsed .sidebar-toggle { display: none; }
+  .admin-topbar { gap: 8px; padding: 0 16px; }
+  .admin-topbar h2 { font-size: 20px; }
+  .admin-topbar .eyebrow { font-size: 9px; }
+  .admin-topbar .view-store { padding: 0 10px; font-size: 12px; }
+  .admin-actions button { min-width: 44px; min-height: 44px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

@@ -1,0 +1,5 @@
+import { useState } from "react";
+import { readProducts, type Category } from "../data/store";
+import { ProductCard } from "./ProductCard";
+import { PublicLayout } from "./PublicLayout";
+export function Catalog() { const [selected, setSelected] = useState<Category | "">(""); const products = readProducts().filter((product) => !selected || product.category === selected); const categories: (Category | "")[] = ["", "Canecas", "Acessórios", "Decoração"]; return <PublicLayout><main className="page"><div className="page-heading"><span className="eyebrow">Catálogo AnaCraft</span><h1>Escolha algo feito para você.</h1><p>Produtos artesanais e personalizados para presentear ou guardar.</p></div><div className="filters">{categories.map((category) => <button key={category || "todos"} className={selected === category ? "active" : ""} onClick={() => setSelected(category)}>{category || "Todos"}</button>)}</div><div className="product-grid">{products.map((product) => <ProductCard key={product.id} product={product}/>)}</div></main></PublicLayout>; }
