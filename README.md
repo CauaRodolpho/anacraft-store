@@ -9,7 +9,9 @@ Vitrine digital simples e objetiva para um ateliê artesanal. Este projeto foi s
 - Página individual de produto.
 - CTA para encomenda pelo Instagram.
 - Área simples do proprietário para cadastrar, editar e remover produtos.
+- Registro demonstrativo de vendas e visão geral com faturamento, ticket médio e produtos mais vendidos.
 - Persistência do catálogo em `localStorage`, sem banco de dados.
+- Persistência demonstrativa de vendas em `localStorage`, sem banco de dados.
 - Layout responsivo para desktop e mobile.
 - PWA instalável no celular, com manifesto, ícone próprio e cache inicial.
 - Imagens reais da loja AnaCraft organizadas em `public/assets` para evitar dependência de imagens externas.
@@ -40,7 +42,7 @@ http://localhost:5173/login
 Senha de demonstração: anacraft123
 ```
 
-Os produtos criados no painel ficam salvos no navegador atual. A versão com vendas, relatórios, autenticação real e banco de dados será mantida no projeto separado `anacraft-manager`.
+Os produtos e vendas desta demonstração ficam salvos no navegador atual. A próxima evolução será substituir essa persistência local por autenticação, banco e armazenamento de imagens para uso real pela dona da loja.
 
 ## Instalar no celular
 
