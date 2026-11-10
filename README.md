@@ -11,6 +11,7 @@ Vitrine digital simples e objetiva para um ateliê artesanal. Este projeto foi s
 - Área simples do proprietário para cadastrar, editar e remover produtos.
 - Persistência do catálogo em `localStorage`, sem banco de dados.
 - Layout responsivo para desktop e mobile.
+- PWA instalável no celular, com manifesto, ícone próprio e cache inicial.
 - Identidade visual AnaCraft com rosa artesanal, off-white e tipografia editorial.
 
 ## Tecnologias
@@ -39,6 +40,10 @@ Senha de demonstração: anacraft123
 ```
 
 Os produtos criados no painel ficam salvos no navegador atual. A versão com vendas, relatórios, autenticação real e banco de dados será mantida no projeto separado `anacraft-manager`.
+
+## Instalar no celular
+
+Abra a URL publicada no navegador do celular e escolha **Adicionar à tela inicial**. No Android, o Chrome exibirá a opção de instalar o AnaCraft; no iPhone, use **Compartilhar → Adicionar à Tela de Início**.
 
 ## Estrutura
 
